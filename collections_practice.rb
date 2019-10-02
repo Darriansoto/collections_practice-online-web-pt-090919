@@ -44,9 +44,11 @@ end
 def add_s(array)
   new_array = []
   array.each do |word|
-    if word != "feet"
-      new_array << word + "s"
-    else
+    new_array << word + "s"
+    new_array.each do |word|
+      if word == "feet"
+        new_array.
+      end
     end
   end
   new_array
